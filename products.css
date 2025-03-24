@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.first_header{
+    background-color: black ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    gap: 50px;
+    padding: 3px 3px;
+    font-family: 'Segoe UI', sans-serif;
+     
+}
+
+div.logo {
+    display: flex;
+    align-items: center; 
+    gap: 0.5px;
+    font-weight: bolder;
+    color: white;
+    font-size: 16px;
+
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+   
+}
+
+.nav_links div a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+
+}
+
+.nav_links div a img {
+    margin-right: 6px;
+   
+}
+
+.nav_links a:hover {
+    color: white;
+    font-weight: bold;
+
+}
+
+.nav_links div a img {
+    opacity: 0.8; 
+    
+}
+
+.nav_links div a:hover img {
+    opacity: 2; 
+}
+
+.post_ad p{
+    color: white;
+    background-color: rgb(202, 98, 115);
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+
+.second_header {
+    background-color: rgb(202, 98, 115);
+    font-size: 16px;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+div .apple_title{
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 20px;
+    padding: 20px 0px 5px;
+
+}
+
+div.desc{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+
+.form-container form{
+    background-color: rgb(202, 98, 115);
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    
+    padding: 12.5px;
+    background-color:#383838;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex; 
+    justify-content: space-between;
+
+
+}
+
+.left-section, .right-section {
+    flex: 1;
+    
+}
+
+.left-section {
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    padding: 15px 5px 5px 15px;
+    border-bottom: 1px solid #ccc;
+
+}
+.buy_repair {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.os-section h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+.checkbox-container {
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+}
+
+.container input {
+    width: 15px;
+    height: 15px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+    margin: 8px 0;
+    opacity: 0.9;
+}
+
+.right-section {
+    border-left: 1px solid #ccc;
+}
+
+.right-section p{
+    width: 100%;
+    padding: 10px;
+}
+
+
+.iphone_card {
+    width: 100%;
+    padding: 3px 14px 8px 14px;
+    border:1px solid #ccc;
+    border-right:1px solid #ccc ;
+    background-color: white;
+    display: flex;
+    
+    
+}
+
+.phone_image {
+    width: 100%;
+    max-width: 256px;
+    height: auto;
+    max-height: 256px; 
+    object-fit: contain;
+    align-items: center;
+    padding: 1px 12px 10px 13px;
+    display: block;
+}
+
+div .card_body{
+    padding-left: 10px;
+    padding: 15px 30px 20px 30px;
+    
+}
+
+
+.phone_card h6 {
+
+    font-size: 14px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 1px;
+
+}
+
+.new{
+    color: rgb(202, 98, 115);
+    padding-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+.kenya{
+    padding-bottom: 20px;
+    
+}
+
+.card_price{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(202, 98, 115);
+    font-weight: bold;
+}
+
+
+footer {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+article{
+border-bottom: 1px solid #ccc; 
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 50%;
+}
+
+.about_iphone {
+    gap: 10px;
+    padding: 0px 0px 0px 30px;
+    color: #333;
+}
+
+.col_1 {
+    text-align: left;
+    gap: 50px;
+
+}
+
+.col_1 h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.col_4 {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+    align-items: flex-start; 
+    width: 100%; 
+    border-top: 1px solid #ccc;
+}
+
+.col_2, .col_3 {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px; 
+    flex: 1; 
+}
+
+.col_1 a {
+    text-decoration: none;
+    color: #333;
+    margin: 5px 0;
+}
+
+
+.copyright {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: black;
+    font-size: 16px;
+    width: 100%; 
+}
+
+ol{
+    display: inline-block;
+}
